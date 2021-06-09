@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="form.css">
+  <title>Validation form</title>
+</head>
+<body>
+
+    <div class="wrapper">
+      <div id="valid-banner"></div>
+      <div class="content">
+        <form onsubmit="return false" class="form-body">
+          <div class="name-area">
+            <input id="name-area-input-1" type="text" placeholder="First Name"><br>
+            <input id="name-area-input-2" type="text" placeholder="Last Name">
+          </div>
+          
+          <div class="gender-class">
+            <p id="gender-pg">Gender:</p>
+            <input type="radio" name="gender" value="m"> M<br>
+            <input type="radio" name="gender" value="f"> F<br>
+          </div>
+          
+          <textarea name="user-message" cols="35" rows="6" placeholder="Your message here..."></textarea>
+          
+          <button id="submit-button" type="submit">Submit</button>
+        </form>
+  
+        <div class="student-image">
+          <img src="img/student.jpg" alt="">
+        </div>
+      </div>
+    </div>
+    <!--Git test for changes!-->  
+    
+
+    <script src="form.js"></script>
+</body>
+</html>
